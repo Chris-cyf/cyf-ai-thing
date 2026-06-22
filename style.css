@@ -1,0 +1,26 @@
+* { 
+  box-sizing: border-box; 
+}
+
+.parent {
+  margin: 0 auto;
+  border: dotted;
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.child {
+  font-size: 14px;
+  font-family: 'Times New Roman';
+  background-color: orange;
+  padding: 8px;
+  border: solid 4px blue;
+  border-radius: 7px;
+  margin: 4px;
+  flex: 0 0 auto;
+  
+}
