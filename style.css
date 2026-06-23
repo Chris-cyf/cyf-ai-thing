@@ -1,3 +1,6 @@
+
+/* Applying "box-sizing: border-box" globally to prevent padding from breaking layouts
+*/
 * { 
   box-sizing: border-box; 
 }
@@ -15,12 +18,15 @@
 
 .child {
   font-size: 14px;
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman",Times, serif;
   background-color: orange;
   padding: 8px;
   border: solid 4px blue;
   border-radius: 7px;
   margin: 4px;
-  flex: 0 0 auto;
+  /*same as flex: 0 0 auto meaning do not grow
+  or shrink but respect the element's ideal size*/
+  flex: none;
+  max-width: 100%;
   
 }
