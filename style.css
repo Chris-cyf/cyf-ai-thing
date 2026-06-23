@@ -28,6 +28,6 @@
   /*same as flex: 0 0 auto meaning do not grow
   or shrink but respect the element's ideal size*/
   flex: none;
-  max-width: 100%;
+  /*max-width: 100%;*/
   
 }
